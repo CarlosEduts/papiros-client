@@ -33,11 +33,11 @@ export function LoginForm({
           <form>
             <FieldGroup>
               <Field>
-                <FieldLabel htmlFor="email">Email</FieldLabel>
+                <FieldLabel htmlFor="username">Nome de usuário</FieldLabel>
                 <Input
-                  id="email"
-                  type="email"
-                  placeholder="email@exemplo.com"
+                  id="username"
+                  type="text"
+                  placeholder="Seu nome de usuário"
                   required
                 />
               </Field>
